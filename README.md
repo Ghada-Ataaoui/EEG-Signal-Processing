@@ -9,10 +9,21 @@ The [DEAP]([https://www.eecs.qmul.ac.uk/mmv/datasets/deap/](https://www.kaggle.c
 ## 🛠️ Features
 
 - Signal segmentation and normalization
-- Feature extraction (statistical, frequency-based, or learned features)
+- Feature extraction (statistical, frequency-based)
 - Emotion labeling based on arousal/valence scores
 - Deep learning models for emotion classification
 - Visualization of results
+
+## 🧠 EEG Frequency Bands
+
+In this project, we focus on specific EEG frequency bands that are known to be associated with different mental states:
+
+- **Alpha (8–12 Hz)**: Associated with relaxed, calm, and restful states. Often seen when the eyes are closed.
+- **Beta (12–30 Hz)**: Linked to active thinking, focus, and concentration.
+- **Gamma (30–64 Hz)**: Related to high-level cognitive functioning, perception, and consciousness.
+
+These bands are extracted from the EEG signals to serve as features for emotion classification.
+
 
 
 
